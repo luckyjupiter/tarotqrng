@@ -4,10 +4,10 @@ import pythoncom
 import openai
 
 # Set your OpenAI API key here
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "key"
 openai.api_key = OPENAI_API_KEY
 
-TOKEN = "6006160419:AAG5JZcFqngrKJ4tFasJesa-YZwDmTRq7hw"
+TOKEN = "key"
 bot = telebot.TeleBot(TOKEN)
 chats = {}
 
